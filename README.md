@@ -43,3 +43,5 @@ Given that irregular masks created artifacts and the multiple square scenario ha
 
 - **Revised Mask Construction:** For the CelebA dataset, multiple squares are replaced with four circles and four ellipses. The shapes are constrained to a specific region within the image to create ensure better reconstruction. The overlapping of these circles and ellipses of different shapes and orientations creates bigger irregular shapes and blobs, making it more challenging for the model to reconstruct the image.
 - **Objective:** Evaluate if continuous missing regions with irregular shapes improve the model’s handling of both regular and irregular missingness.
+
+For a more detailed explanation and further elaboration, please refer to the [`Jupyter Notebook`](/dlvc_Bidaralli_AbhijithSrinivas.ipynb/)provided with this repository. .
